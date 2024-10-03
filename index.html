@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Curator</h1>
+        <p class="tagline">It grows, as it goes</p>
+
+        <div class="form-container">
+            <input type="number" id="roll" placeholder="Your roll" required>
+            <input type="password" id="password" placeholder="Your password" required>
+            <button onclick="submitForm()">Submit</button>
+            <p id="error-msg" class="error-msg"></p>
+        </div>
+
+        <div class="rolls-passwords">
+            <h2>Rolls and Passwords</h2>
+            <ul>
+                <li>Set 1: Rolls 150-175 with respective passwords</li>
+                <li>Set 2: Rolls 350-375 with respective passwords</li>
+                <li>Set 3: Roll 543 with password 885993</li>
+                <li>Set 4: Roll 986 with password 050940</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+      </html>
