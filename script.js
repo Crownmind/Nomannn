@@ -36,7 +36,7 @@ function submitForm() {
     if (roll >= 150 && roll <= 175) {
         const rollIndex = rollsPasswords.set1.rolls.indexOf(roll);
         if (rollIndex !== -1 && rollsPasswords.set1.passwords[rollIndex] === password) {
-            window.location.href = "https://x.com";
+            window.location.href = "https://fishy-suede-a92.notion.site/Your-Education-e1a465adb07d444d88f7417570733fc2?pvs=4";
             return;
         }
     }
@@ -50,7 +50,7 @@ function submitForm() {
     }
     // Set 3 validation
     if (roll === rollsPasswords.set3.roll && password === rollsPasswords.set3.password) {
-        window.location.href = "https://z.com";
+        window.location.href = "https://fishy-suede-a92.notion.site/Your-Education-e1a465adb07d444d88f7417570733fc2?pvs=4";
         return;
     }
     // Set 4 validation
